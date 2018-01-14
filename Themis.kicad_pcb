@@ -3,7 +3,7 @@
   (general
     (links 644)
     (no_connects 0)
-    (area 80.724999 82.899999 225.428571 177.05)
+    (area 89.924999 84.924999 190.075001 135.075001)
     (thickness 1.6)
     (drawings 14)
     (tracks 967)
@@ -8467,6 +8467,11 @@
       (at (xyz 0.04 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 270))
+    )
+    (model ../../../../../../Users/Marco/Documents/Kicad/modules/SMA_PINS.pretty/packages3d/SMA_Edge.wrl
+      (at (xyz -0.3 -0.3 -0.13))
+      (scale (xyz 0.5 0.5 0.5))
+      (rotate (xyz 90 180 90))
     )
   )
 

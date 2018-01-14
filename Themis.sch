@@ -684,7 +684,7 @@ $EndComp
 Wire Wire Line
 	6450 1900 6450 1950
 Text Notes 3100 4200 0    60   ~ 0
-From HPF out
+from  HPF out
 Text Notes 3550 2150 0    60   ~ 0
 To RX1_Line
 Wire Wire Line
@@ -1255,4 +1255,6 @@ F 3 "" H 3000 5650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3050 5650 3000 5650
+Text Notes 3950 3650 2    60   ~ 0
+PS\nFeedback\n
 $EndSCHEMATC

@@ -8468,6 +8468,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 270))
     )
+    (model ../../../../../../Users/Marco/Documents/Kicad/modules/SMA_PINS.pretty/packages3d/SMA_Edge.wrl
+      (at (xyz -0.27 -0.3 -0.13))
+      (scale (xyz 0.5 0.5 0.5))
+      (rotate (xyz 90 180 90))
+    )
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5A4E25F3)
