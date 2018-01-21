@@ -3,7 +3,7 @@
   (general
     (links 644)
     (no_connects 0)
-    (area 89.924999 84.924999 190.075001 135.075001)
+    (area 80.724999 82.899999 225.428571 177.05)
     (thickness 1.6)
     (drawings 14)
     (tracks 967)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 2)
     (user_trace_width 0.6)
     (user_trace_width 1)
     (user_trace_width 1.6)
@@ -8469,7 +8469,7 @@
       (rotate (xyz 0 0 270))
     )
     (model ../../../../../../Users/Marco/Documents/Kicad/modules/SMA_PINS.pretty/packages3d/SMA_Edge.wrl
-      (at (xyz -0.27 -0.3 -0.13))
+      (at (xyz -0.3 -0.3 -0.13))
       (scale (xyz 0.5 0.5 0.5))
       (rotate (xyz 90 180 90))
     )
@@ -8807,7 +8807,7 @@
   (gr_text PS_Feedback (at 179 124 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "To\n RX1_Line" (at 121.5 112) (layer F.SilkS)
+  (gr_text " RX1_Line" (at 122.5 114) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text PS_IN (at 137 124) (layer F.SilkS)
@@ -9774,7 +9774,7 @@
   (segment (start 114.5 116.5) (end 114.5 117.96) (width 1) (layer B.Cu) (net 16))
   (segment (start 176.985 95) (end 176.985 101.985) (width 3) (layer F.Cu) (net 17))
   (segment (start 176.985 101.985) (end 180 105) (width 3) (layer F.Cu) (net 17) (tstamp 5A4DFE53))
-  (segment (start 185 105) (end 180 105) (width 1.6) (layer F.Cu) (net 17))
+  (segment (start 185 105) (end 180 105) (width 2) (layer F.Cu) (net 17))
   (segment (start 180 105) (end 176.985 101.985) (width 1.6) (layer F.Cu) (net 17) (tstamp 5A4DFE4F))
   (segment (start 188 105) (end 185 105) (width 1.6) (layer F.Cu) (net 17))
   (segment (start 124.66 120.5) (end 133.5 120.5) (width 1.6) (layer F.Cu) (net 18))
