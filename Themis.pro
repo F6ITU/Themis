@@ -1,4 +1,4 @@
-update=03/01/2018 16:40:31
+update=10/03/2018 16:03:07
 version=1
 last_client=kicad
 [pcbnew]
@@ -29,9 +29,9 @@ version=1
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=relays
-LibName4=conn
-LibName5=linear
-LibName6=C:/Users/Marco/Documents/Kicad/libraries/Kemet_Relay/ee2-5nu
+LibName1=C:/Users/Marco/Documents/Kicad/libraries/Kemet_Relay/ee2-5nu
+LibName2=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/Amplifier_Operational
+LibName3=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/Connector_Generic
+LibName4=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/Device
+LibName5=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/power
+LibName6=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/Regulator_Linear
