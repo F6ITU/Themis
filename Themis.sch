@@ -1,10 +1,10 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:relays
-LIBS:conn
-LIBS:linear
 LIBS:ee2-5nu
+LIBS:Amplifier_Operational
+LIBS:Connector_Generic
+LIBS:Device
+LIBS:power
+LIBS:Regulator_Linear
 LIBS:Themis-cache
 EELAYER 25 0
 EELAYER END
@@ -1257,4 +1257,6 @@ Wire Wire Line
 	3050 5650 3000 5650
 Text Notes 3950 3650 2    60   ~ 0
 PS\nFeedback\n
+Text Notes 2400 1350 0    60   ~ 0
+Themis V1\npremière version du coupleur\npcb réalisé, tests peu concluants\n
 $EndSCHEMATC
