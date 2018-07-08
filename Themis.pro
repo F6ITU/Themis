@@ -1,4 +1,4 @@
-update=10/03/2018 16:03:07
+update=08/07/2018 09:28:55
 version=1
 last_client=kicad
 [pcbnew]
@@ -35,3 +35,13 @@ LibName3=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/Connector_Gen
 LibName4=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/Device
 LibName5=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/power
 LibName6=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/Regulator_Linear
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
