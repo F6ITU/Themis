@@ -1,4 +1,3 @@
 (sym_lib_table
   (lib (name Themis-rescue)(type Legacy)(uri ${KIPRJMOD}/Themis-rescue.lib)(options "")(descr ""))
-  (lib (name ee2-5nu)(type Legacy)(uri C:/Users/Marco/Documents/Kicad/libraries/Kemet_Relay/ee2-5nu.lib)(options "")(descr ""))
 )
