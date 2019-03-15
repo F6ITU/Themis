@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7)
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.2)-1")
 
   (general
-    (links 547)
-    (no_connects 0)
-    (area 49.924999 29.924999 150.075001 80.075001)
     (thickness 1.6)
     (drawings 15)
     (tracks 647)
@@ -37,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.6)
+    (last_trace_width 0.25)
     (user_trace_width 0.6)
     (user_trace_width 1)
     (user_trace_width 1.6)
@@ -75,11 +72,15 @@
     (pad_size 3 3)
     (pad_drill 0.8)
     (pad_to_mask_clearance 0.2)
+    (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFEFF7F)
+    (visible_elements 7FFFFF7F)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -88,8 +89,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -6362,7 +6362,7 @@
     (pad 3 thru_hole rect (at -9 13 90) (size 3 3) (drill 0.8) (layers *.Cu *.Mask)
       (net 7 "Net-(D1-Pad2)"))
     (model ../../../../../../Users/Marco/Documents/Kicad/modules/T50.pretty/T50.wrl
-      (at (xyz 0 0 0.15))
+      (offset (xyz 0 0 3.809999942779541))
       (scale (xyz 0.18 0.2 0.18))
       (rotate (xyz 90 360 0))
     )
@@ -6377,7 +6377,7 @@
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     )
     (fp_text value SMA (at 0 6.35) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_circle (center 0 0) (end 0 -0.50038) (layer F.SilkS) (width 0.09906))
     (fp_circle (center 0 0) (end 1.50114 0) (layer F.SilkS) (width 0.09906))
@@ -6410,7 +6410,7 @@
     (tags "capacitor ATC")
     (path /5A4D7C3A)
     (attr smd)
-    (fp_text reference C1 (at -4 -0.5 360) (layer F.SilkS)
+    (fp_text reference C1 (at -4 -0.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10p (at 0 3.556 270) (layer F.Fab)
@@ -6799,7 +6799,7 @@
     (tags "resistor 0805")
     (path /5A4D1644)
     (attr smd)
-    (fp_text reference R5 (at -2.25 1.75 360) (layer B.SilkS)
+    (fp_text reference R5 (at -2.25 1.75) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value 1K8 (at 0 -1.75 270) (layer B.Fab)
@@ -7249,7 +7249,7 @@
     (tags SOT-23)
     (path /5A4D0072)
     (attr smd)
-    (fp_text reference D1 (at -2.5 0 450) (layer B.SilkS)
+    (fp_text reference D1 (at -2.5 0 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value BAT54 (at 0 -2.5 180) (layer B.Fab)
@@ -7294,7 +7294,7 @@
     (tags SOT-23)
     (path /5A4D162C)
     (attr smd)
-    (fp_text reference D2 (at -2.5 0 360) (layer B.SilkS)
+    (fp_text reference D2 (at -2.5 0) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value BAT54 (at 0 -2.5 270) (layer B.Fab)
@@ -7432,7 +7432,7 @@
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     )
     (fp_text value SMA (at 0 6.35) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_circle (center 0 0) (end 0 -0.50038) (layer F.SilkS) (width 0.09906))
     (fp_circle (center 0 0) (end 1.50114 0) (layer F.SilkS) (width 0.09906))
@@ -7468,7 +7468,7 @@
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     )
     (fp_text value SMA (at 0 6.35 270) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_circle (center 0 0) (end 0 -0.50038) (layer F.SilkS) (width 0.09906))
     (fp_circle (center 0 0) (end 1.50114 0) (layer F.SilkS) (width 0.09906))
@@ -7649,7 +7649,7 @@
     (pad 3 thru_hole rect (at -8.8 -8.6 90) (size 3 3) (drill 0.8) (layers *.Cu *.Mask)
       (net 7 "Net-(D1-Pad2)"))
     (model ../../../../../../Users/Marco/Documents/Kicad/modules/T50_V_cms.pretty/T50.wrl
-      (at (xyz 0 0 0.23))
+      (offset (xyz 0 0 5.841999912261963))
       (scale (xyz 0.14 0.2 0.14))
       (rotate (xyz 0 0 0))
     )
@@ -8703,19 +8703,23 @@
       )
     )
     (polygon
-      (pts        (xy 55 75) (xy 113 75) (xy 113 54) (xy 58 54) (xy 55 51)
+      (pts
+        (xy 55 75) (xy 113 75) (xy 113 54) (xy 58 54) (xy 55 51)
       )
     )
     (polygon
-      (pts        (xy 142 54) (xy 115 54) (xy 115 75) (xy 145 75) (xy 145 51)
+      (pts
+        (xy 142 54) (xy 115 54) (xy 115 75) (xy 145 75) (xy 145 51)
       )
     )
     (polygon
-      (pts        (xy 55 35) (xy 55 49.2) (xy 59 46) (xy 113 46) (xy 113 35)
+      (pts
+        (xy 55 35) (xy 55 49.2) (xy 59 46) (xy 113 46) (xy 113 35)
       )
     )
     (polygon
-      (pts        (xy 115 35) (xy 115 46) (xy 142 46) (xy 145 49) (xy 145 35)
+      (pts
+        (xy 115 35) (xy 115 46) (xy 142 46) (xy 145 49) (xy 145 35)
       )
     )
     (filled_polygon
@@ -8755,7 +8759,8 @@
       )
     )
     (polygon
-      (pts        (xy 55 35) (xy 55 75) (xy 145 75) (xy 145 35)
+      (pts
+        (xy 55 35) (xy 55 75) (xy 145 75) (xy 145 35)
       )
     )
     (filled_polygon
@@ -8779,7 +8784,8 @@
       )
     )
     (polygon
-      (pts        (xy 59 46) (xy 57 47.5) (xy 52 47.5) (xy 52 52.5) (xy 57 52.5)
+      (pts
+        (xy 59 46) (xy 57 47.5) (xy 52 47.5) (xy 52 52.5) (xy 57 52.5)
         (xy 59 54) (xy 141.5 54) (xy 143 52.5) (xy 148 52.5) (xy 148 47.5)
         (xy 143 47.5) (xy 141 46)
       )

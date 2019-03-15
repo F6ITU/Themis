@@ -7669,7 +7669,7 @@
   (gr_text "Themis \nΘέμις\nV2.0" (at 69.5 50) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "\nMedium power \nDual directionnal reflectometer" (at 114 48.5) (layer B.SilkS)
+  (gr_text "\nMedium power \nDual directionnal reflectometer" (at 100 49) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text "Themis \nΘέμις\nV2.0" (at 120 67) (layer F.SilkS)

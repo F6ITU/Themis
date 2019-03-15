@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Themis-rescue_+12V
+# +12V
 #
-DEF Themis-rescue_+12V #PWR 0 0 Y Y 1 F P
+DEF +12V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Themis-rescue_+12V" 0 140 50 H V C CNN
+F1 "+12V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Themis-rescue_C_Small
+# C_Small
 #
-DEF Themis-rescue_C_Small C 0 10 N N 1 F N
+DEF C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Themis-rescue_C_Small" 10 -80 50 H V L CNN
+F1 "C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -34,11 +34,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Themis-rescue_Conn_01x01
+# Conn_01x01
 #
-DEF Themis-rescue_Conn_01x01 J 0 40 Y N 1 F N
+DEF Conn_01x01 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Themis-rescue_Conn_01x01" 0 -100 50 H V C CNN
+F1 "Conn_01x01" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -51,11 +51,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Themis-rescue_Conn_01x05
+# Conn_01x05
 #
-DEF Themis-rescue_Conn_01x05 J 0 40 Y N 1 F N
+DEF Conn_01x05 J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "Themis-rescue_Conn_01x05" 0 -300 50 H V C CNN
+F1 "Conn_01x05" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -76,11 +76,11 @@ X Pin_5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Themis-rescue_Conn_Coaxial
+# Conn_Coaxial
 #
-DEF Themis-rescue_Conn_Coaxial J 0 40 Y N 1 F N
+DEF Conn_Coaxial J 0 40 Y N 1 F N
 F0 "J" 10 120 50 H V C CNN
-F1 "Themis-rescue_Conn_Coaxial" 115 0 50 V V C CNN
+F1 "Conn_Coaxial" 115 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -101,11 +101,11 @@ X Ext 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Themis-rescue_D_Small_ALT
+# D_Small_ALT
 #
-DEF Themis-rescue_D_Small_ALT D 0 10 N N 1 F N
+DEF D_Small_ALT D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "Themis-rescue_D_Small_ALT" -150 -80 50 H V L CNN
+F1 "D_Small_ALT" -150 -80 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -124,11 +124,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Themis-rescue_GND
+# GND
 #
-DEF Themis-rescue_GND #PWR 0 0 N N 1 F P
+DEF GND #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Themis-rescue_GND" 0 -150 50 H V C CNN
+F1 "GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -137,11 +137,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Themis-rescue_LMC6482
+# LMC6482
 #
-DEF Themis-rescue_LMC6482 U 0 20 Y Y 2 F N
+DEF LMC6482 U 0 20 Y Y 2 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "Themis-rescue_LMC6482" 0 -200 50 H V L CNN
+F1 "LMC6482" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -170,11 +170,11 @@ X ~ 7 300 0 100 L 50 50 2 1 O
 ENDDRAW
 ENDDEF
 #
-# Themis-rescue_PWR_FLAG
+# PWR_FLAG
 #
-DEF Themis-rescue_PWR_FLAG #FLG 0 0 N N 1 F P
+DEF PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "Themis-rescue_PWR_FLAG" 0 150 50 H V C CNN
+F1 "PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -183,11 +183,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# Themis-rescue_R_Small
+# R_Small
 #
-DEF Themis-rescue_R_Small R 0 10 N N 1 F N
+DEF R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "Themis-rescue_R_Small" 30 -40 50 H V L CNN
+F1 "R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -200,11 +200,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Themis-rescue_Transformer_1P_1S
+# Transformer_1P_1S
 #
-DEF Themis-rescue_Transformer_1P_1S T 0 40 Y N 1 F N
+DEF Transformer_1P_1S T 0 40 Y N 1 F N
 F0 "T" 0 250 50 H V C CNN
-F1 "Themis-rescue_Transformer_1P_1S" 0 -300 50 H V C CNN
+F1 "Transformer_1P_1S" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
